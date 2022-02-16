@@ -1,0 +1,17 @@
+{
+  "service": {
+    "hairCut": {
+      "male": {
+        "price": "100"
+      },
+      "female": {
+        "price": "200"
+      }
+    },
+    "skin": {
+      "facial": {
+        "price": "500"
+      }
+    }
+  }
+}
