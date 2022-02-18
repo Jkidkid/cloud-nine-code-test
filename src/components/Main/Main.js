@@ -1,14 +1,17 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "../Home/Home";
-import Booking from "../Booking/Booking";
+import Salons from "../Salons/Salons";
+import Salon from "../Salon/Salon";
 
-export default function Main(props) {
+const Main = props => {
   return (
-    <div className="mainContent">
+    <div className="main">
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/booking" element={<Booking />} />
+        <Route path="/salons" element={<Salons />} />
+        <Route path="/salon" element={<Salon />} />
       </Routes>
     </div>
   );
-}
+};
+export default Main;

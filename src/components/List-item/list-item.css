@@ -1,0 +1,46 @@
+.list-item {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  position: relative;
+  gap: 0 16px;
+  padding: 16px 0;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.list-item::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -16px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("../../../public/arrow.svg");
+  background-repeat: no-repeat;
+}
+
+.time-container {
+  text-align: left;
+  padding-top: 2px;
+}
+
+.salon-info {
+  grid-column: span 4;
+  text-align: left;
+}
+
+.salon-title {
+  font-size: 20px;
+}
+
+.salon-title,
+.star-ratings,
+.price {
+  margin-bottom: 12px;
+}
+
+.salon-price-duration {
+  display: flex;
+  flex-direction: column;
+}
