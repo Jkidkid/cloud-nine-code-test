@@ -7,9 +7,8 @@ const Main = props => {
   return (
     <div className="main">
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="/salons" element={<Salons />} />
-        <Route path="/salon" element={<Salon />} />
+        <Route path="/" element={<Salons />} />
+        <Route path="salons/:id" exact element={<Salon />} />
       </Routes>
     </div>
   );

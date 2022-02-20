@@ -1,0 +1,52 @@
+.salons-header {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 16px;
+  height: 50px;
+  padding: 0 16px;
+  border-bottom: 1px solid #b69f58;
+}
+
+.salons-header .heading {
+  grid-column: 2 / span 10;
+  align-self: center;
+  font-size: 22px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.13px;
+  color: #202020;
+}
+
+.salons-header--icon {
+  align-self: center;
+  width: 20px;
+  height: 20px;
+}
+
+.salons-header--icon.arrow{
+  transform: rotate(180deg);
+} 
+
+.filter-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 16px;
+  border-bottom: 1px solid #b69f58;
+}
+
+.filter-price {
+  color: #202020
+}
+
+
+
+
+.filter-section--icon {
+  width: 6px;
+  height: 12px;
+  transform: rotate(90deg);
+}

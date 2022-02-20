@@ -1,0 +1,137 @@
+[
+  {
+    "id": "sax&fon",
+    "title": "Sax & Fön",
+    "service": {
+      "hairCut": {
+        "price": "320",
+        "currency": "kr",
+        "duration": "30min"
+      }
+    },
+    "reviews": 32,
+    "ratings": 4,
+    "address": "Rådmansgatan 46",
+    "city": "Stockholm",
+    "opening_hours": [
+      "10:00 - 19:30",
+      "10:00 - 19:30",
+      "10:00 - 19:00",
+      "10:00 - 20:00",
+      "10:00 - 21:00",
+      "10:00 - 16:00",
+      "10:00 - 15:00"
+    ],
+    "url": "www.sax&fön.se",
+    "phone_number": "08-522 389 20",
+    "desctiption": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
+  },
+  {
+    "id": "harizont",
+    "title": "Hårizont",
+    "service": {
+      "hairCut": {
+        "price": "320",
+        "currency": "kr",
+        "duration": "30min"
+      }
+    },
+    "reviews": 180,
+    "ratings": 3,
+    "address": "Sveavägen 20",
+    "city": "Stockholm",
+    "opening_hours": [
+      "10:00 - 19:30",
+      "10:00 - 19:30",
+      "10:00 - 19:00",
+      "10:00 - 20:00",
+      "10:00 - 21:00",
+      "10:00 - 16:00",
+      "10:00 - 15:00"
+    ],
+    "url": "www.hårizont.se",
+    "phone_number": "08-522 389 20",
+    "desctiption": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
+  },
+  {
+    "id": "harhuset",
+    "title": "Hårhuset",
+    "service": {
+      "hairCut": {
+        "price": "320",
+        "currency": "kr",
+        "duration": "30min"
+      }
+    },
+    "reviews": 180,
+    "ratings": 3,
+    "address": "Observatorielunden 20",
+    "city": "Stockholm",
+    "opening_hours": [
+      "10:00 - 19:30",
+      "10:00 - 19:30",
+      "10:00 - 19:00",
+      "10:00 - 20:00",
+      "10:00 - 21:00",
+      "10:00 - 16:00",
+      "10:00 - 15:00"
+    ],
+    "url": "www.hårhuset.se",
+    "phone_number": "08-522 389 20",
+    "desctiption": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
+  },
+  {
+    "id": "hair&nu",
+    "title": "Hair & Nu",
+    "service": {
+      "hairCut": {
+        "price": "320",
+        "currency": "kr",
+        "duration": "30min"
+      }
+    },
+    "reviews": 41,
+    "ratings": 4,
+    "address": "Hornsgatan 68",
+    "city": "Stockholm",
+    "opening_hours": [
+      "10:00 - 19:30",
+      "10:00 - 19:30",
+      "10:00 - 19:00",
+      "10:00 - 20:00",
+      "10:00 - 21:00",
+      "10:00 - 16:00",
+      "10:00 - 15:00"
+    ],
+    "url": "www.hairnu.se",
+    "phone_number": "08-522 389 20",
+    "desctiption": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
+  },
+  {
+    "id": "harleyDavidson",
+    "title": "Hårley Davidson",
+    "service": {
+      "hairCut": {
+        "price": "320",
+        "currency": "kr",
+        "duration": "30min"
+      }
+    },
+    "reviews": 10,
+    "ratings": 5,
+    "address": "Solnavägen 3",
+    "city": "Stockholm",
+    "opening_hours": [
+      "10:00 - 19:30",
+      "10:00 - 19:30",
+      "10:00 - 19:00",
+      "10:00 - 20:00",
+      "10:00 - 21:00",
+      "10:00 - 16:00",
+      "10:00 - 15:00"
+    ],
+    "url": "www.hårley-davidson.se",
+    "phone_number": "08-522 389 20",
+    "desctiption": "Lorem ipsum dolor sit amet, vulputate nunc. Auctor viverra. Ridiculus feugiat nunc porttitor volut pat, acu quis torquent iaculis ultricies massa, duis nun quis que amet."
+  }
+]
