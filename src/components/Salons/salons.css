@@ -10,6 +10,7 @@
 .salons-header .heading {
   grid-column: 2 / span 10;
   align-self: center;
+  text-align: center;
   font-size: 22px;
   font-weight: 300;
   font-stretch: normal;
@@ -41,9 +42,6 @@
 .filter-price {
   color: #202020
 }
-
-
-
 
 .filter-section--icon {
   width: 6px;
