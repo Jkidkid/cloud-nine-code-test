@@ -1,15 +1,14 @@
 import React from "react";
-import { Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import ListItem from "../List-item/List-item";
 import Salon from "../Salon/Salon";
 import data from "../../data/data.json";
-
 import "./list.css";
 
 const List = props => {
   const minutes = new Date().getMinutes();
   const hour = new Date().getHours();
-  const time = `${minutes != 0 ? hour + 1 : hour}:00`;
+  const time = `${minutes !== 0 ? hour + 1 : hour}:00`;
 
   return (
     <ul className="list">

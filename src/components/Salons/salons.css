@@ -26,6 +26,10 @@
   height: 20px;
 }
 
+.salons-header--icon.filter {
+  justify-self: flex-end;
+}
+
 .salons-header--icon.arrow{
   transform: rotate(180deg);
 } 

@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 import data from "../../data/data.json";
 import image_small from "../../images/image.jpg";
-import imagex2_medium from "../../images/image.jpg";
-import imagex3_large from "../../images/image.jpg";
+import image_medium from "../../images/image@2x.jpg";
+import image_large from "../../images/image@3x.jpg";
 import "./salon.css";
 import Ratings from "../Ratings/Ratings";
 import arrow from "../../icons/arrow.svg";
@@ -34,7 +34,17 @@ const Salon = props => {
                 <div className="salon--hero-media">
                   <img
                     src={image_small}
-                    srcSet={`${image_small} 375w, ${imagex2_medium} 750w, ${imagex3_large} 1024w`}
+                    srcset={`
+                        ${image_small} 375w, 
+                        ${image_medium} 750w, 
+                        ${image_large} 1024w
+                      `}
+                    sizes="
+                      (min-width: 750px) 1024px,
+                      (min-width: 375px) 750px,
+                      100vw
+                    "
+                    alt="Salon"
                   />
                 </div>
                 <div className="topbar">
